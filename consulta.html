@@ -1,0 +1,218 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="icon" href="img/logo-icon.png" />
+
+
+</head>
+
+<body>
+
+    <div class=" col s12 m12 l12">
+        <nav>
+            <div class="nav-wrapper brown darken-1 z-depth-5">
+                <a href="#!" class="brand-logo espaco"><img src="img/logo-branco.png" width="36%"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quemsomos.html">Quem somos</a></li>
+                    <li><a href="areas.html">Áreas de atuação</a></li>
+                    <li><a href="consulta.html">Consulta prévia</a></li>
+                    <li><a href="contato.html">Localização</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quemsomos.html">Quem somos</a></li>
+            <li><a href="areas.html">Áreas de atuação</a></li>
+            <li><a href="consulta.html">Consulta prévia</a></li>
+            <li><a href="contato.html">Localização</a></li>
+        </ul>
+
+
+    </div>
+
+
+    <div class=" col s12 m12 l12">
+        <img src="img/consulta1.jpg" width="100%">
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col s12 md6 l6 espaco-top">
+                <h4>Consulta prévia on-line</h4>
+                <p>
+                    Nós nos comprometemos a responder com a maior brevidade possível, mas para isso, por favor leia as
+                    regras ao lado.</p>
+                  
+                    <p class="efeito"> * campos obrigatórios</p> 
+
+                <div class="row">
+                    <form action="email/email/emailTest.php" method="POST" class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" name="nome" class="validate" required>
+                                <label for="icon_prefix">Nome</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">phone</i>
+                                <input id="icon_telephone" type="tel" name="telefone" class="validate" required>
+                                <label for="icon_telephone">Telefone</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">email</i>
+                                <input id="icon_prefix" type="text" name="email" class="validate" required>
+                                <label for="icon_prefix">E-mail</label>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">edit_location</i>
+                                <input id="icon_prefix" type="text" name="bairro" class="validate" required>
+                                <label for="icon_prefix">Bairro</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">gps_fixed</i>
+                                <input id="icon_telephone" type="tel" name="cidade" class="validate" required>
+                                <label for="icon_telephone">Cidade</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <select name="assunto" id="assunto" required>
+                                    <option value="0" disabled>Selecione uma opção</option>
+                                    <option value="1">Cívil</option>
+                                    <option value="2">Família e Sucessões</option>
+                                    <option value="3">Consumidor</option>
+                                    <option value="4">Trabalhista</option>
+                                    <option value="5">Previdenciário</option>
+                                    <option value="6">Imobiliário</option>
+                                    <option value="7">Condomínios</option>
+                                    <option value="8">Extrajudicial</option>
+
+                                </select>
+                                <label>Assunto</label>
+                            </div>
+
+                        </div>
+
+                      
+                           <div class="row">
+                           
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                      <input id="icon_prefix" type="text" name="resumo" class="validate" required>
+                                        <label for="textarea1">Resumo do seu caso</label>
+                                    </div>
+                                </div>
+                        </div>
+                      
+                        <div class="row">
+                                 <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                                   <i class="material-icons right icon-send">send</i>
+                          </button>
+                        </div>
+ 
+
+                    </form>
+                </div>
+
+            </div>
+            <div class="col s12 m6 l6 espaco-top">
+                <h4>Regras</h4>
+                
+                <p>
+                    <i class="material-icons">check</i>
+                    A ferramenta "Consulta Prévia On-line" tem por finalidade facilitar o relacionamento com o cliente,
+                    antecipando orientações e procedimentos essenciais para posterior reunião ou consulta jurídica.
+
+                </p>
+                <p>
+                    <i class="material-icons">check</i>
+                    Não sanamos dúvidas por telefone. Sendo que, questionamentos que se encerram na fase de consulta
+                    prévia, sem a intenção ou possibilidade de ingressar com ação, não serão respondidas por e-mail,
+                    salvo à título de assessoria juridica, com reunião pessoalmente no escritório, mediante pagamento de
+                    consulta.
+                </p>
+                <p>
+                    <i class="material-icons">check</i>
+                    Oferecemos esse espaço sempre que houver necessidade de uma consulta prévia.Nossa intenção é atender
+                    suas necessidades com o máximo de objetividade e presteza.
+
+                </p>
+                <img src="img/consulta.jpg"  class="responsive-img">
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+    
+    <footer class="page-footer brown darken-1 z-depth-5">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Katiana Passini</h5>
+                    <p class="grey-text text-lighten-4">Fone: (11)99961-2372 - WhatsApp - Advocacia e Consultoria</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Todos os direitos reservados
+                <a class="grey-text text-lighten-4 right"
+                    href="https://www.facebook.com/dudadesenvolvimento/">Desenvolvido por:
+                    <img src="img/duda.png" width="40">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('select');
+            var instances = M.FormSelect.init(elems, options);
+        });
+
+        // Or with jQuery
+
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+
+    </script>
+    <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              var elems = document.querySelectorAll('.sidenav');
+              var instances = M.Sidenav.init(elems, options);
+            });
+        
+            // Or with jQuery
+        
+            $(document).ready(function () {
+              $('.sidenav').sidenav();
+            });
+          </script>
+        
+</body>
+
+</html>
