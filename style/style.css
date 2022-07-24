@@ -64,7 +64,10 @@ nav .sidenav-trigger i {
 
 }
 ul li a {
-    font-size: 30px;
+    font-size: 30px!important;
+}
+.brand-logo{
+    width: 200px;
 }
 }
 @media only screen and (max-width: 600px) {
@@ -80,5 +83,8 @@ nav .sidenav-trigger i  {
     font-size: 70px;
     color:#fff!important;
 
+}
+.brand-logo{
+    width: 200px;
 }
 }
