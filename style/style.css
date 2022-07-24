@@ -55,15 +55,14 @@ h4,h5{
     width: 50%;
     text-align: center!important;
 }
-p, label{
+p, label, .card-action a{
     font-size:24px;
 }
 nav .sidenav-trigger i {
     font-size: 70px;
     color:#fff!important;
 
-}
-   
+}  
 .brand-logo img{
     width: 200px!important;
 }
