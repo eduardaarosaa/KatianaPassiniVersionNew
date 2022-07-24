@@ -58,7 +58,7 @@ h4,h5{
 p, label{
     font-size:24px;
 }
-.menu-mobile i , .nav-menu{
+nav .sidenav-trigger i {
     font-size: 70px;
     color:#fff!important;
 
@@ -76,7 +76,7 @@ iframe{
     width: 50%;
     text-align: center!important;
 }
-.menu-mobile i, .nav-menu {
+nav .sidenav-trigger i  {
     font-size: 70px;
     color:#fff!important;
 
