@@ -63,10 +63,8 @@ nav .sidenav-trigger i {
     color:#fff!important;
 
 }
-ul li a {
-    font-size: 30px!important;
-}
-.brand-logo{
+   
+.brand-logo img{
     width: 200px!important;
 }
 }
@@ -84,7 +82,10 @@ nav .sidenav-trigger i  {
     color:#fff!important;
 
 }
-.brand-logo{
+.brand-logo img{
     width: 200px!important;
+}
+.sidenav li a {
+    font-size: 25px!important;
 }
 }
