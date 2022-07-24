@@ -29,7 +29,15 @@ h4,h5{
 .efeito{
     color:red;
 }
-.nav-menu{
+.nav-menu:active{
+    color:#fff;
+
+}
+.nav-menu:link{
+    color:#fff;
+
+}
+.nav-menu:visited{
     color:#fff;
 
 }
@@ -47,10 +55,10 @@ h4,h5{
     width: 50%;
     text-align: center!important;
 }
-p{
+p, label{
     font-size:24px;
 }
-.menu-mobile i {
+.menu-mobile i , .nav-menu{
     font-size: 70px;
     color:#fff!important;
 
@@ -68,7 +76,7 @@ iframe{
     width: 50%;
     text-align: center!important;
 }
-.menu-mobile i {
+.menu-mobile i, .nav-menu {
     font-size: 70px;
     color:#fff!important;
 
