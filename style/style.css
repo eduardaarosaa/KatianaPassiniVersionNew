@@ -19,6 +19,9 @@ h1{
 .hyperlink{
     color: red;
 }
+.hyperlink2{
+    color: #fff;
+}
 i{
     color:#5d4037;
 
@@ -67,9 +70,7 @@ nav .sidenav-trigger i {
 .brand-logo img{
     width: 200px!important;
 }
-.phone{
-    color: #fff!important;
-}
+
 }
 @media only screen and (max-width: 600px) {
 .phone{
