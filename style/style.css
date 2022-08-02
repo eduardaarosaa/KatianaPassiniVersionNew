@@ -1,3 +1,4 @@
+
 .espaco{
     margin-top:1%;
     margin-left: 2%;
@@ -66,8 +67,14 @@ nav .sidenav-trigger i {
 .brand-logo img{
     width: 200px!important;
 }
+.phone{
+    color: #fff!important;
+}
 }
 @media only screen and (max-width: 600px) {
+.phone{
+    color: #fff!important;
+}
 iframe{
     width: 300px;
     height: 250px;
